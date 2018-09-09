@@ -12,7 +12,6 @@
   </ItemGroup>
   
   <ItemGroup>
-    <ProjectReference Include="..\SBSA.Recon.Tool.Application\SBSA.Recon.Tool.Application.csproj" />
     <ProjectReference Include="..\SBSA.Recon.Tool.Infrastructure\SBSA.Recon.Tool.Infrastructure.csproj" />
   </ItemGroup>
 

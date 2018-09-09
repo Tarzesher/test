@@ -12,4 +12,8 @@
     <PackageReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\SBSA.Recon.Tool.Domain\SBSA.Recon.Tool.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

@@ -40,3 +40,14 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.RazorTargetAssemblyInfo.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.csproj.CopyComplete
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb

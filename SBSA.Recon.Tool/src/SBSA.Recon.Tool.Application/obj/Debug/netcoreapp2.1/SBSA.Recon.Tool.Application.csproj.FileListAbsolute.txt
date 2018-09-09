@@ -34,3 +34,5 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.pdb
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb

@@ -58,6 +58,13 @@ namespace ABSA.OffShore.QueryService.Persistence
                 .Set<TEntity>()
                 .CountAsync();
         }
+
+        public async Task<IEnumerable<TEntity>> FindAsync()
+        {
+            return await _context
+                .Set<TEntity>()
+                .ToListAsync();
+        }
     }
 
 }

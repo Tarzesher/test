@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v2.1": {
-      "Autofac/4.8.1": {
+      "Autofac/4.2.0": {
         "type": "package",
         "dependencies": {
           "NETStandard.Library": "1.6.0",
@@ -2284,68 +2284,6 @@
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
       },
-      "SBSA.Recon.Tool.Application/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "AutoMapper": "7.0.1",
-          "Autofac.Extensions.DependencyInjection": "4.2.2",
-          "Microsoft.EntityFrameworkCore": "2.1.1",
-          "SBSA.Recon.Tool.Domain": "1.0.0",
-          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
-          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
-        },
-        "compile": {
-          "bin/placeholder/SBSA.Recon.Tool.Application.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SBSA.Recon.Tool.Application.dll": {}
-        }
-      },
-      "SBSA.Recon.Tool.CommansService/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/SBSA.Recon.Tool.CommansService.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SBSA.Recon.Tool.CommansService.dll": {}
-        }
-      },
-      "SBSA.Recon.Tool.Domain/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "dependencies": {
-          "AutoMapper": "7.0.1",
-          "Autofac": "4.8.1",
-          "Autofac.Extensions.DependencyInjection": "4.2.2",
-          "Microsoft.EntityFrameworkCore": "2.1.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
-          "SBSA.Recon.Tool.CommansService": "1.0.0",
-          "SBSA.Recon.Tool.EventStore": "1.0.0",
-          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
-          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
-        },
-        "compile": {
-          "bin/placeholder/SBSA.Recon.Tool.Domain.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SBSA.Recon.Tool.Domain.dll": {}
-        }
-      },
-      "SBSA.Recon.Tool.EventStore/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.1",
-        "compile": {
-          "bin/placeholder/SBSA.Recon.Tool.EventStore.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SBSA.Recon.Tool.EventStore.dll": {}
-        }
-      },
       "SBSA.Recon.Tool.Infrastructure/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v2.1",
@@ -2367,12 +2305,12 @@
     }
   },
   "libraries": {
-    "Autofac/4.8.1": {
-      "sha512": "aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
+    "Autofac/4.2.0": {
+      "sha512": "WHiPMqI8FYa4Mf4yTb0P/aBibHn7Z0B9r02CEXy9oAAkQMJpHxLOE45iIMMW+xthXu26V9nRIz7o5lA7V3ztgw==",
       "type": "package",
-      "path": "autofac/4.8.1",
+      "path": "autofac/4.2.0",
       "files": [
-        "autofac.4.8.1.nupkg.sha512",
+        "autofac.4.2.0.nupkg.sha512",
         "autofac.nuspec",
         "lib/net45/Autofac.dll",
         "lib/net45/Autofac.xml",
@@ -7520,26 +7458,6 @@
         "system.xml.xpath.xdocument.nuspec"
       ]
     },
-    "SBSA.Recon.Tool.Application/1.0.0": {
-      "type": "project",
-      "path": "../SBSA.Recon.Tool.Application/SBSA.Recon.Tool.Application.csproj",
-      "msbuildProject": "../SBSA.Recon.Tool.Application/SBSA.Recon.Tool.Application.csproj"
-    },
-    "SBSA.Recon.Tool.CommansService/1.0.0": {
-      "type": "project",
-      "path": "../SBSA.Recon.Tool.CommansService/SBSA.Recon.Tool.CommansService.csproj",
-      "msbuildProject": "../SBSA.Recon.Tool.CommansService/SBSA.Recon.Tool.CommansService.csproj"
-    },
-    "SBSA.Recon.Tool.Domain/1.0.0": {
-      "type": "project",
-      "path": "../SBSA.Recon.Tool.Domain/SBSA.Recon.Tool.Domain.csproj",
-      "msbuildProject": "../SBSA.Recon.Tool.Domain/SBSA.Recon.Tool.Domain.csproj"
-    },
-    "SBSA.Recon.Tool.EventStore/1.0.0": {
-      "type": "project",
-      "path": "../SBSA.Recon.Tool.EventStore/SBSA.Recon.Tool.EventStore.csproj",
-      "msbuildProject": "../SBSA.Recon.Tool.EventStore/SBSA.Recon.Tool.EventStore.csproj"
-    },
     "SBSA.Recon.Tool.Infrastructure/1.0.0": {
       "type": "project",
       "path": "../SBSA.Recon.Tool.Infrastructure/SBSA.Recon.Tool.Infrastructure.csproj",
@@ -7552,7 +7470,6 @@
       "Autofac.Extensions.DependencyInjection >= 4.2.2",
       "Microsoft.EntityFrameworkCore >= 2.1.1",
       "Microsoft.NETCore.App >= 2.1.0",
-      "SBSA.Recon.Tool.Application >= 1.0.0",
       "SBSA.Recon.Tool.Infrastructure >= 1.0.0",
       "StructureMap.Microsoft.DependencyInjection >= 1.4.0"
     ]
@@ -7587,9 +7504,6 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Application\\SBSA.Recon.Tool.Application.csproj": {
-              "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Application\\SBSA.Recon.Tool.Application.csproj"
-            },
             "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj": {
               "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj"
             }

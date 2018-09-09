@@ -18,7 +18,7 @@ namespace SBSA.OffShore.Domain.Configuration
             // register types 
             builder.RegisterType<EventBus>().As<IEventBus>().InstancePerLifetimeScope();
             builder.RegisterType<CommandBus>().As<ICommandBus>().InstancePerDependency();
-            builder.RegisterType<CreateCommentCommandHandler>().As<ICommandHandler<CreateCommentCommand>>();
+            builder.RegisterType<ReadQueryStatsHandler>().As<ICommandHandler<CreateCommentCommand>>();
 
             // build container 
             var container = builder.Build();

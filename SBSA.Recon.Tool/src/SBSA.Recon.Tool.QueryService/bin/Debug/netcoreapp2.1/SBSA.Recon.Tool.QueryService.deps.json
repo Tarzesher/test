@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.1",
-    "signature": "7e43f15ca8a2bfb0ed59293ec4910ba3f72b454c"
+    "signature": "8174d6b57ac7b9ea194611b1e08f2fe20d66e3cc"
   },
   "compilationOptions": {},
   "targets": {
@@ -11,7 +11,6 @@
           "AutoMapper": "7.0.1",
           "Autofac.Extensions.DependencyInjection": "4.2.2",
           "Microsoft.EntityFrameworkCore": "2.1.1",
-          "SBSA.Recon.Tool.Application": "1.0.0",
           "SBSA.Recon.Tool.Infrastructure": "1.0.0",
           "StructureMap.Microsoft.DependencyInjection": "1.4.0"
         },
@@ -19,20 +18,20 @@
           "SBSA.Recon.Tool.QueryService.dll": {}
         }
       },
-      "Autofac/4.8.1": {
+      "Autofac/4.2.0": {
         "dependencies": {
           "System.ComponentModel": "4.0.1"
         },
         "runtime": {
           "lib/netstandard1.1/Autofac.dll": {
-            "assemblyVersion": "4.8.1.0",
-            "fileVersion": "4.8.1.0"
+            "assemblyVersion": "4.2.0.0",
+            "fileVersion": "4.2.0.0"
           }
         }
       },
       "Autofac.Extensions.DependencyInjection/4.2.2": {
         "dependencies": {
-          "Autofac": "4.8.1",
+          "Autofac": "4.2.0",
           "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.1"
         },
         "runtime": {
@@ -1513,48 +1512,6 @@
           "System.Xml.XPath": "4.3.0"
         }
       },
-      "SBSA.Recon.Tool.Application/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "7.0.1",
-          "Autofac.Extensions.DependencyInjection": "4.2.2",
-          "Microsoft.EntityFrameworkCore": "2.1.1",
-          "SBSA.Recon.Tool.Domain": "1.0.0",
-          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
-          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
-        },
-        "runtime": {
-          "SBSA.Recon.Tool.Application.dll": {}
-        }
-      },
-      "SBSA.Recon.Tool.CommansService/1.0.0": {
-        "runtime": {
-          "SBSA.Recon.Tool.CommansService.dll": {}
-        }
-      },
-      "SBSA.Recon.Tool.Domain/1.0.0": {
-        "dependencies": {
-          "AutoMapper": "7.0.1",
-          "Autofac": "4.8.1",
-          "Autofac.Extensions.DependencyInjection": "4.2.2",
-          "Microsoft.EntityFrameworkCore": "2.1.1",
-          "Microsoft.EntityFrameworkCore.SqlServer": "2.1.1",
-          "Microsoft.EntityFrameworkCore.Tools": "2.1.1",
-          "Microsoft.Extensions.DependencyInjection": "2.1.1",
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1",
-          "SBSA.Recon.Tool.CommansService": "1.0.0",
-          "SBSA.Recon.Tool.EventStore": "1.0.0",
-          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
-          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
-        },
-        "runtime": {
-          "SBSA.Recon.Tool.Domain.dll": {}
-        }
-      },
-      "SBSA.Recon.Tool.EventStore/1.0.0": {
-        "runtime": {
-          "SBSA.Recon.Tool.EventStore.dll": {}
-        }
-      },
       "SBSA.Recon.Tool.Infrastructure/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "2.1.1",
@@ -1576,12 +1533,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Autofac/4.8.1": {
+    "Autofac/4.2.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-aIT9rupCOdab5RMfxvWTBmOxGU77tLqmvSF4V89SzV6oQcJrtuKw/Xp55xy9EijSktbMka55SbroAPOyT+lziw==",
-      "path": "autofac/4.8.1",
-      "hashPath": "autofac.4.8.1.nupkg.sha512"
+      "sha512": "sha512-WHiPMqI8FYa4Mf4yTb0P/aBibHn7Z0B9r02CEXy9oAAkQMJpHxLOE45iIMMW+xthXu26V9nRIz7o5lA7V3ztgw==",
+      "path": "autofac/4.2.0",
+      "hashPath": "autofac.4.2.0.nupkg.sha512"
     },
     "Autofac.Extensions.DependencyInjection/4.2.2": {
       "type": "package",
@@ -2541,26 +2498,6 @@
       "sha512": "sha512-jw9oHHEIVW53mHY9PgrQa98Xo2IZ0ZjrpdOTmtvk+Rvg4tq7dydmxdNqUvJ5YwjDqhn75mBXWttWjiKhWP53LQ==",
       "path": "system.xml.xpath.xdocument/4.3.0",
       "hashPath": "system.xml.xpath.xdocument.4.3.0.nupkg.sha512"
-    },
-    "SBSA.Recon.Tool.Application/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SBSA.Recon.Tool.CommansService/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SBSA.Recon.Tool.Domain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SBSA.Recon.Tool.EventStore/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "SBSA.Recon.Tool.Infrastructure/1.0.0": {
       "type": "project",

@@ -25,14 +25,6 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.AssemblyInfo.cs
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Application.dll
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.dll
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.dll
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.dll
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Application.pdb
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.pdb
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.csproj.CopyComplete

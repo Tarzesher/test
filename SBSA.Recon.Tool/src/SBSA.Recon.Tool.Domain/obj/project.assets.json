@@ -2321,6 +2321,23 @@
         "runtime": {
           "bin/placeholder/SBSA.Recon.Tool.Infrastructure.dll": {}
         }
+      },
+      "SBSA.Recon.Tool.QueryService/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v2.1",
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Autofac.Extensions.DependencyInjection": "4.2.2",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
+          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
+        },
+        "compile": {
+          "bin/placeholder/SBSA.Recon.Tool.QueryService.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SBSA.Recon.Tool.QueryService.dll": {}
+        }
       }
     }
   },
@@ -7492,6 +7509,11 @@
       "type": "project",
       "path": "../SBSA.Recon.Tool.Infrastructure/SBSA.Recon.Tool.Infrastructure.csproj",
       "msbuildProject": "../SBSA.Recon.Tool.Infrastructure/SBSA.Recon.Tool.Infrastructure.csproj"
+    },
+    "SBSA.Recon.Tool.QueryService/1.0.0": {
+      "type": "project",
+      "path": "../SBSA.Recon.Tool.QueryService/SBSA.Recon.Tool.QueryService.csproj",
+      "msbuildProject": "../SBSA.Recon.Tool.QueryService/SBSA.Recon.Tool.QueryService.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -7508,6 +7530,7 @@
       "SBSA.Recon.Tool.CommansService >= 1.0.0",
       "SBSA.Recon.Tool.EventStore >= 1.0.0",
       "SBSA.Recon.Tool.Infrastructure >= 1.0.0",
+      "SBSA.Recon.Tool.QueryService >= 1.0.0",
       "StructureMap.Microsoft.DependencyInjection >= 1.4.0"
     ]
   },
@@ -7549,6 +7572,9 @@
             },
             "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj": {
               "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj"
+            },
+            "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.QueryService\\SBSA.Recon.Tool.QueryService.csproj": {
+              "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.QueryService\\SBSA.Recon.Tool.QueryService.csproj"
             }
           }
         }
