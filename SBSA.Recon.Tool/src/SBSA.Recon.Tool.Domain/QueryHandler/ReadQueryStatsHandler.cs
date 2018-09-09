@@ -8,7 +8,7 @@ using SBSA.OffShore.Domain.QueryHandlers;
 using SBSA.Recon.Tool.Infrastructure.Entities;
 using SBSA.Recon.Tool.QueryService;
 
-namespace SBSA.OffShore.Domain.CommandHandlers
+namespace SBSA.OffShore.Domain.QueryHandlers
 {
     public class ReadQueryStatsHandler : IQueryHandler<ReconStatsQuery, AdaptivRecon>
     {
