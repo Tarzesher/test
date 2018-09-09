@@ -19,6 +19,7 @@
           "SBSA.Recon.Tool.CommansService": "1.0.0",
           "SBSA.Recon.Tool.EventStore": "1.0.0",
           "SBSA.Recon.Tool.Infrastructure": "1.0.0",
+          "SBSA.Recon.Tool.QueryService": "1.0.0",
           "StructureMap.Microsoft.DependencyInjection": "1.4.0"
         },
         "runtime": {
@@ -1541,6 +1542,18 @@
         "runtime": {
           "SBSA.Recon.Tool.Infrastructure.dll": {}
         }
+      },
+      "SBSA.Recon.Tool.QueryService/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Autofac.Extensions.DependencyInjection": "4.2.2",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
+          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
+        },
+        "runtime": {
+          "SBSA.Recon.Tool.QueryService.dll": {}
+        }
       }
     }
   },
@@ -2527,6 +2540,11 @@
       "sha512": ""
     },
     "SBSA.Recon.Tool.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "SBSA.Recon.Tool.QueryService/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -42,3 +42,5 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Domain\obj\Debug\netcoreapp2.1\SBSA.
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Domain\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.csproj.CopyComplete
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Domain\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Domain\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Domain\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Domain\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb

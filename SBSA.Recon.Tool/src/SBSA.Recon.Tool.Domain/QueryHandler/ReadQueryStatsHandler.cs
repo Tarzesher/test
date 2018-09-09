@@ -10,7 +10,7 @@ using SBSA.Recon.Tool.QueryService;
 
 namespace SBSA.OffShore.Domain.CommandHandlers
 {
-    public class ReadQueryStatsHandler : IQueryHandler<ReconStatsQuery>
+    public class ReadQueryStatsHandler : IQueryHandler<ReconStatsQuery, AdaptivRecon>
     {
         private IQueryServiceRepository<AdaptivRecon> _repository;
         public IMapper Mapper
@@ -37,11 +37,6 @@ namespace SBSA.OffShore.Domain.CommandHandlers
                 throw new InvalidOperationException("Repository is not initialized.");
             }
             return await _repository.FindAsync();
-        }
-
-        public Task<IEnumerable<T>> Execute<T>(ReconStatsQuery query)
-        {
-            throw new NotImplementedException();
         }
     }
 }
