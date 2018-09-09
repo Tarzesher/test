@@ -26,3 +26,17 @@ C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.RazorTargetAssemblyInfo.cache
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.dll
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.deps.json
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.runtimeconfig.json
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.runtimeconfig.dev.json
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.csprojAssemblyReference.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.csproj.CoreCompileInputs.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.RazorAssemblyInfo.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.RazorAssemblyInfo.cs
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.AssemblyInfoInputs.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.AssemblyInfo.cs
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.RazorTargetAssemblyInfo.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.WebApi\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.WebApi.pdb

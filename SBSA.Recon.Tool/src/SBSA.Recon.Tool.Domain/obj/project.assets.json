@@ -7518,11 +7518,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Domain\\SBSA.Recon.Tool.Domain.csproj",
+      "projectUniqueName": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Domain\\SBSA.Recon.Tool.Domain.csproj",
       "projectName": "SBSA.Recon.Tool.Domain",
-      "projectPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Domain\\SBSA.Recon.Tool.Domain.csproj",
+      "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Domain\\SBSA.Recon.Tool.Domain.csproj",
       "packagesPath": "C:\\Users\\ABTMBAY\\.nuget\\packages\\",
-      "outputPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Domain\\obj\\",
+      "outputPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -7541,14 +7541,14 @@
       "frameworks": {
         "netcoreapp2.1": {
           "projectReferences": {
-            "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.CommansService\\SBSA.Recon.Tool.CommansService.csproj": {
-              "projectPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.CommansService\\SBSA.Recon.Tool.CommansService.csproj"
+            "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.CommansService\\SBSA.Recon.Tool.CommansService.csproj": {
+              "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.CommansService\\SBSA.Recon.Tool.CommansService.csproj"
             },
-            "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj": {
-              "projectPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj"
+            "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj": {
+              "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj"
             },
-            "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj": {
-              "projectPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj"
+            "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj": {
+              "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.Infrastructure\\SBSA.Recon.Tool.Infrastructure.csproj"
             }
           }
         }

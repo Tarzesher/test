@@ -16,3 +16,12 @@ C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcorea
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.AssemblyInfo.cs
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.deps.json
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.csprojAssemblyReference.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.csproj.CoreCompileInputs.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.AssemblyInfoInputs.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.AssemblyInfo.cs
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.QueryService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.QueryService.pdb

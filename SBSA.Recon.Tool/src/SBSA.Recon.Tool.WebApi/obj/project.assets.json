@@ -11506,11 +11506,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.WebApi\\SBSA.Recon.Tool.WebApi.csproj",
+      "projectUniqueName": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.WebApi\\SBSA.Recon.Tool.WebApi.csproj",
       "projectName": "SBSA.Recon.Tool.WebApi",
-      "projectPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.WebApi\\SBSA.Recon.Tool.WebApi.csproj",
+      "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.WebApi\\SBSA.Recon.Tool.WebApi.csproj",
       "packagesPath": "C:\\Users\\ABTMBAY\\.nuget\\packages\\",
-      "outputPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.WebApi\\obj\\",
+      "outputPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.WebApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

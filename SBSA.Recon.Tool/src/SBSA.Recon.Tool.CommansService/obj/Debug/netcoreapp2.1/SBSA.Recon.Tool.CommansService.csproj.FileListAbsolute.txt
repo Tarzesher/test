@@ -16,3 +16,12 @@ C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcor
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.AssemblyInfo.cs
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.dll
 C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.deps.json
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.csprojAssemblyReference.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.csproj.CoreCompileInputs.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.AssemblyInfoInputs.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.AssemblyInfo.cs
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.CommansService\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb

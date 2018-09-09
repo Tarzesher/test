@@ -77,7 +77,7 @@ function createOverview(id) {
         srcReference: 'M619252000',
         tradeDate: new Date('Feb 15 2018 12:00AM'),
         expiryDate: new Date('Feb 15 2018 12:00AM'),
-        SettlementDate: new Date('Feb 15 2018 12:00AM'),
+        settlementDate: new Date('Feb 15 2018 12:00AM'),
         cif: 0,
         product: 'N/A',
         notional: 56000000,

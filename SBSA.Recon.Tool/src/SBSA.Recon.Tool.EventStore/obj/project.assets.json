@@ -687,11 +687,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj",
+      "projectUniqueName": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj",
       "projectName": "SBSA.Recon.Tool.EventStore",
-      "projectPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj",
+      "projectPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\SBSA.Recon.Tool.EventStore.csproj",
       "packagesPath": "C:\\Users\\ABTMBAY\\.nuget\\packages\\",
-      "outputPath": "C:\\ReconTool\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\obj\\",
+      "outputPath": "C:\\SBSA\\SBSA.Recon.Tool\\src\\SBSA.Recon.Tool.EventStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
