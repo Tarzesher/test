@@ -1,0 +1,32 @@
+﻿CREATE TABLE [dbo].[AdaptivRecon] (
+    [AdaptivReconID]                  INT            IDENTITY (1, 1) NOT NULL,
+    [Source]                          VARCHAR (800)  NULL,
+    [CDSBusinessDate]                 VARCHAR (800)  NULL,
+    [CDSBusinessDate_Skey]            VARCHAR (50)   NULL,
+    [Reference]                       VARCHAR (50)   NULL,
+    [SourceReference]                 VARCHAR (50)   NULL,
+    [TradeDate]                       VARCHAR (50)   NULL,
+    [ExpiryDate]                      VARCHAR (50)   NULL,
+    [SettlementDate]                  VARCHAR (50)   NULL,
+    [Counterparty]                    VARCHAR (50)   NULL,
+    [Product]                         VARCHAR (50)   NULL,
+    [Notional]                        VARCHAR (50)   NULL,
+    [MarketToMarket]                  VARCHAR (50)   NULL,
+    [AdaptivLogEvent]                 VARCHAR (800)  NULL,
+    [AdaptivLogComment]               VARCHAR (800)  NULL,
+    [Aggregation]                     NVARCHAR (800) NULL,
+    [SecondGeneration]                NVARCHAR (800) NULL,
+    [Item_In_Source]                  VARCHAR (800)  NULL,
+    [Middleware_LogFilter]            VARCHAR (800)  NULL,
+    [Middleware_ErrException]         VARCHAR (800)  NULL,
+    [Middleware_CIFErrException]      VARCHAR (800)  NULL,
+    [Middleware_LogDelivered]         VARCHAR (800)  NULL,
+    [Item_In_Target]                  VARCHAR (800)  NULL,
+    [InsertUser]                      VARCHAR (800)  NULL,
+    [Item_LogDelivered_Not_In_Target] VARCHAR (800)  NULL,
+    [MarkToMarketCurrency]            VARCHAR (800)  NULL,
+    [Currency]                        VARCHAR (800)  NULL,
+    [MaturityDate]                    VARCHAR (50)   NULL
+);
+
+

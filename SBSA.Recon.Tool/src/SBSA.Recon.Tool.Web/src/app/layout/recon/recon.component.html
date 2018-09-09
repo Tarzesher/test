@@ -1,0 +1,71 @@
+<mat-form-field>
+  <input matInput (keyup)="applyFilter($event.target.value)" placeholder="Filter">
+</mat-form-field>
+
+<div class="mat-elevation-z8">
+  <table mat-table [dataSource]="dataSource" matSort>
+
+<ng-container matColumnDef="reconID">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Recon Id </th>
+    <td mat-cell *matCellDef="let row"> {{row.reconID}} </td>
+</ng-container>
+<ng-container matColumnDef="source">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> Source </th>
+    <td mat-cell *matCellDef="let row"> {{row.source}} </td>
+</ng-container>
+<ng-container matColumnDef="cdsBusinessDate">
+    <th mat-header-cell *matHeaderCellDef mat-sort-header> CDS Business Date </th>
+    <td mat-cell *matCellDef="let row"> {{row.cdsBusinessDate}} </td>
+</ng-container>
+<ng-container matColumnDef="reference">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Reference </th>
+        <td mat-cell *matCellDef="let row"> {{row.reference}} </td>
+</ng-container>
+<ng-container matColumnDef="srcReference">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Src Reference </th>
+        <td mat-cell *matCellDef="let row"> {{row.srcReference}} </td>
+    </ng-container>
+    <ng-container matColumnDef="tradeDate">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> Trade Date </th>
+        <td mat-cell *matCellDef="let row"> {{row.tradeDate}} </td>
+    </ng-container>
+    <ng-container matColumnDef="expiryDate">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Expiry Date </th>
+            <td mat-cell *matCellDef="let row"> {{row.expiryDate}} </td>
+        </ng-container>
+    <ng-container matColumnDef="settlementDate">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Trade Date </th>
+            <td mat-cell *matCellDef="let row"> {{row.settlementDate}} </td>
+    </ng-container>
+    <ng-container matColumnDef="cif">
+        <th mat-header-cell *matHeaderCellDef mat-sort-header> CIF
+        <td mat-cell *matCellDef="let row"> {{row.cif}} </td>
+    </ng-container>
+    <ng-container matColumnDef="product">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Product </th>
+            <td mat-cell *matCellDef="let row"> {{row.product}} </td>
+    </ng-container>
+    <ng-container matColumnDef="notional">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> notional </th>
+            <td mat-cell *matCellDef="let row"> {{row.notional}} </td>
+    </ng-container>
+    <ng-container matColumnDef="mtm">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header>mtm </th>
+            <td mat-cell *matCellDef="let row"> {{row.mtm}} </td>
+        </ng-container>
+    
+        <ng-container matColumnDef="logEvent">
+            <th mat-header-cell *matHeaderCellDef mat-sort-header> Log Event </th>
+            <td mat-cell *matCellDef="let row"> {{row.logEvent}} </td>
+        </ng-container>
+        <ng-container matColumnDef="comment">
+                <th mat-header-cell *matHeaderCellDef mat-sort-header> Comment</th>
+                <td mat-cell *matCellDef="let row"> {{row.comment}} </td>
+        </ng-container>
+
+    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
+    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
+  </table>
+
+  <mat-paginator [pageSize]="10" [pageSizeOptions]="[5, 10, 25, 100]"></mat-paginator>
+</div>
