@@ -1,8 +1,9 @@
-﻿using System;
+﻿using SBSA.Recon.Tool.Infrastructure.Common;
+using System;
 
 namespace SBSA.Recon.Tool.Application.DataTransferObject
 {
-    public class MetaAdaptivReconCommentDto 
+    public class CommentDto : IReadCommentEntity
     {
         public int CommentKey { get; set; }
         public string AdaptivReconId { get; set; }

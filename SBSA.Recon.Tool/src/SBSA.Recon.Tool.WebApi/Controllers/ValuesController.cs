@@ -14,7 +14,7 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
-            return new string[] { "value1", "value2" };
+            return new string[] { "Recon tool found values" };
         }
 
         // GET api/values/5

@@ -25,3 +25,12 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\obj\Debug\netcoreapp2.1\
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Application.AssemblyInfo.cs
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Application.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Application.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Application.csproj.CopyComplete
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.dll
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Domain.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.CommansService.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Application\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.pdb
