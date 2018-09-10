@@ -1,13 +1,10 @@
-﻿using SBSA.OffShore.CommandService;
-using SBSA.Recon.Tool.CommandService;
-using SBSA.Recon.Tool.QueryService;
-using System;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+﻿using SBSA.Recon.Tool.QueryService;
 
 namespace SBSA.OffShore.Domain.QueryHandlers
 {
-    public interface IQueryHandler<TQuery, T> where TQuery : Query { 
-        Task<IEnumerable<T>> Execute(TQuery query);
+    public interface IQueryHandler<in TQuery, out TResponse> 
+        where TQuery : IQuery<TResponse>
+    {
+        TResponse Get();
     }
 }

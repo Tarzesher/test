@@ -1,4 +1,5 @@
 ﻿using SBSA.Recon.Tool.CommandService;
+using SBSA.Recon.Tool.QueryService;
 
 namespace SBSA.Recon.Tool.Domain.Messaging
 {

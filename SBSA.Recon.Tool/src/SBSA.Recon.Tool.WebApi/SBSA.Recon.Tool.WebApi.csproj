@@ -13,6 +13,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SBSA.Recon.Tool.Application\SBSA.Recon.Tool.Application.csproj" />
     <ProjectReference Include="..\SBSA.Recon.Tool.Domain\SBSA.Recon.Tool.Domain.csproj" />
   </ItemGroup>
 

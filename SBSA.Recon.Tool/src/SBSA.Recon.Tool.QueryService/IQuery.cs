@@ -1,9 +1,7 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace SBSA.Recon.Tool.QueryService
 {
-    public interface IQuery
-    {
-        int Id { get; }
-    }
+    public interface IQuery<out TResponse> { }
 }
