@@ -9,7 +9,8 @@ using SBSA.Recon.Tool.QueryService;
 
 namespace SBSA.OffShore.Domain.QueryHandlers
 {
-    public class ReadQueryStatsHandler : IQueryHandler<ReconStatsQuery, Task<IEnumerable<AdaptivRecon>>>
+    public class ReadQueryStatsHandler : 
+            IQueryHandler<ReconStatsQuery, Task<IEnumerable<AdaptivRecon>>>
     {
         private IQueryServiceRepository<AdaptivRecon> _repository;
         public IMapper Mapper

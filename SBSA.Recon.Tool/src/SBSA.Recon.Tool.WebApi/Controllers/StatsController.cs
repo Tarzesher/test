@@ -11,8 +11,6 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
         [HttpGet]
         public async Task<IEnumerable<AdaptivReconDto>> ReadStats()
         {
-            var service = new AdaptivReconService();
-            return await service.GetStats();
           
         }
     }

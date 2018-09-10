@@ -1,33 +1,34 @@
 ﻿using Autofac;
-using SBSA.OffShore.Domain.CommandHandlers;
 using SBSA.OffShore.Domain.Configuration;
+using SBSA.OffShore.Domain.QueryHandlers;
 using SBSA.OffShore.Infrastructure.Service.Exceptions;
-using SBSA.Recon.Tool.CommandService;
+using SBSA.Recon.Tool.QueryService;
 
 namespace SBSA.Recon.Tool.Domain.Messaging
 {
-    public class CommandBus : ICommandBus
+    public class ReadQuery<T, TResult> where T : IQuery<TResult>,
+        IQueryHandler<T, TResult>
     {
         private IComponentContext Context { get; set; }
 
-        public CommandBus()
+        public ReadQuery()
         {
             Context = OffshoreContainer.Build();
         }
 
-        public void Send<T>(T command) where T : Command
+        public TResult Get()
         {
-            var handler = this.Context.Resolve<ICommandHandler<T>>();
+            var handler = this.Context.Resolve<IQueryHandler<T, TResult>>();
 
             if (handler != null)
             {
-                handler.Execute(command);
+                return handler.Get();
             }
             else
             {
                 throw new UnregisteredDomainCommandException("no handler registered");
             }
-        }        
+        }
     }
 
 }
