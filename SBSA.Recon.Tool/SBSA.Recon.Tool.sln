@@ -21,7 +21,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SBSA.Recon.Tool.WebApi", "s
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{CF04FC07-D98B-4EFA-98CD-B10DF3DCD3C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBSA.Recon.Tool.EventStore", "src\SBSA.Recon.Tool.EventStore\SBSA.Recon.Tool.EventStore.csproj", "{DFA8E227-F735-4368-9C88-92B376763A01}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SBSA.Recon.Tool.EventStore", "src\SBSA.Recon.Tool.EventStore\SBSA.Recon.Tool.EventStore.csproj", "{DFA8E227-F735-4368-9C88-92B376763A01}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SBSA.Recon.Tool.WebApiTest", "src\test\SBSA.Recon.Tool.WebApiTest\SBSA.Recon.Tool.WebApiTest.csproj", "{59F0E331-C1B4-4ECF-AC1C-527F9BB986BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,9 +69,16 @@ Global
 		{DFA8E227-F735-4368-9C88-92B376763A01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFA8E227-F735-4368-9C88-92B376763A01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFA8E227-F735-4368-9C88-92B376763A01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59F0E331-C1B4-4ECF-AC1C-527F9BB986BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59F0E331-C1B4-4ECF-AC1C-527F9BB986BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59F0E331-C1B4-4ECF-AC1C-527F9BB986BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59F0E331-C1B4-4ECF-AC1C-527F9BB986BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{59F0E331-C1B4-4ECF-AC1C-527F9BB986BE} = {CF04FC07-D98B-4EFA-98CD-B10DF3DCD3C2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {018B5D37-DB53-457D-A2C2-10FA1DF45906}

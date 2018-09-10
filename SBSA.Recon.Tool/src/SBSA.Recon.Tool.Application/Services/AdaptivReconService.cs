@@ -1,4 +1,5 @@
-﻿using AutoMapper;
+﻿using ABSA.OffShore.QueryService.Persistence;
+using AutoMapper;
 using SBSA.OffShore.Domain.Configuration;
 using SBSA.Recon.Tool.Application.DataTransferObject;
 using SBSA.Recon.Tool.Domain.Messaging;
@@ -20,10 +21,10 @@ namespace SBSA.Recon.Tool.Application.Services
             }
         }
 
-        public async Task<IEnumerable<AdaptivRecon>> GetStats()
+        public async Task<IEnumerable<AdaptivRecon>> GetStats(IQueryServiceRepository<AdaptivRecon> repository)
         {
             var query = new ReconStatsQuery();
-            var handler = AdaptivReconHandlerFactory.Build(query);
+            var handler = new AdaptivReconHandlerFactory(repository).Build(query);
             return await handler.Get();
         }
     }

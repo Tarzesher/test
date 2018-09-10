@@ -24,7 +24,6 @@ namespace SBSA.OffShore.Domain.QueryHandlers
         {
             _repository = repository;
         }
-        public ReadQueryStatsHandler() { }
         public async Task<IEnumerable<AdaptivRecon>> Get()
         {
             return await _repository.FindAsync();

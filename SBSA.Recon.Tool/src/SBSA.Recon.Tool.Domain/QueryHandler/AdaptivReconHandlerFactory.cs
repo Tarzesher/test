@@ -15,9 +15,9 @@ namespace SBSA.Recon.Tool.Domain.QueryHandler
             _repository = repository;
         }
 
-        public static IQueryHandler<ReconStatsQuery, Task<IEnumerable<AdaptivRecon>>> Build(ReconStatsQuery query)
+        public IQueryHandler<ReconStatsQuery, Task<IEnumerable<AdaptivRecon>>> Build(ReconStatsQuery query)
         {
-            return new ReadQueryStatsHandler();
+            return new ReadQueryStatsHandler(_repository);
         }
 
     }
