@@ -3,11 +3,13 @@ using SBSA.OffShore.Domain.Configuration;
 using SBSA.OffShore.Domain.QueryHandlers;
 using SBSA.OffShore.Infrastructure.Service.Exceptions;
 using SBSA.Recon.Tool.QueryService;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace SBSA.Recon.Tool.Domain.Messaging
 {
-    public class ReadQuery<T, TResult> where T : IQuery<TResult>,
-        IQueryHandler<T, TResult>
+    public class ReadQuery<T, TResult> where T : IQuery<IEnumerable<TResult>>,
+        IQueryHandler<T, IEnumerable<TResult>>
     {
         private IComponentContext Context { get; set; }
 
@@ -16,9 +18,9 @@ namespace SBSA.Recon.Tool.Domain.Messaging
             Context = OffshoreContainer.Build();
         }
 
-        public TResult Get()
+        public async Task<IEnumerable<TResult>> Get()
         {
-            var handler = this.Context.Resolve<IQueryHandler<T, TResult>>();
+            var handler = this.Context.Resolve<IQueryHandler<T, IEnumerable<TResult>>>();
 
             if (handler != null)
             {

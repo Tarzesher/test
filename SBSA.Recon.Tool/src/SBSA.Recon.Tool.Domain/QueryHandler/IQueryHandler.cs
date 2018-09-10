@@ -1,4 +1,5 @@
 ﻿using SBSA.Recon.Tool.QueryService;
+using System.Collections.Generic;
 
 namespace SBSA.OffShore.Domain.QueryHandlers
 {
@@ -7,4 +8,6 @@ namespace SBSA.OffShore.Domain.QueryHandlers
     {
         TResponse Get();
     }
+
+
 }

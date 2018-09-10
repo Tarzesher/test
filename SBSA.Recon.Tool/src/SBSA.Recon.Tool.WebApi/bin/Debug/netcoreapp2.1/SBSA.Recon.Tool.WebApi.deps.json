@@ -26,6 +26,7 @@
         "dependencies": {
           "Microsoft.AspNetCore.App": "2.1.1",
           "Microsoft.NETCore.App": "2.1.0",
+          "SBSA.Recon.Tool.Application": "1.0.0",
           "SBSA.Recon.Tool.Domain": "1.0.0"
         },
         "runtime": {
@@ -603,6 +604,22 @@
         }
       },
       "System.ValueTuple/4.5.0": {},
+      "SBSA.Recon.Tool.Application/1.0.0": {
+        "dependencies": {
+          "AutoMapper": "7.0.1",
+          "Autofac.Extensions.DependencyInjection": "4.2.2",
+          "Microsoft.EntityFrameworkCore": "2.1.1",
+          "SBSA.Recon.Tool.Domain": "1.0.0",
+          "SBSA.Recon.Tool.Infrastructure": "1.0.0",
+          "StructureMap.Microsoft.DependencyInjection": "1.4.0"
+        },
+        "runtime": {
+          "SBSA.Recon.Tool.Application.dll": {}
+        },
+        "compile": {
+          "SBSA.Recon.Tool.Application.dll": {}
+        }
+      },
       "SBSA.Recon.Tool.CommansService/1.0.0": {
         "runtime": {
           "SBSA.Recon.Tool.CommansService.dll": {}
@@ -3846,6 +3863,11 @@
       "sha512": "sha512-xZtSZNEHGa+tGsKuP4sh257vxJ/yemShz4EusmomkynMzuEDDjVaErBNewpzEF6swUgbcrSQAX3ELsEp1zCOwA==",
       "path": "system.valuetuple/4.5.0",
       "hashPath": "system.valuetuple.4.5.0.nupkg.sha512"
+    },
+    "SBSA.Recon.Tool.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SBSA.Recon.Tool.CommansService/1.0.0": {
       "type": "project",

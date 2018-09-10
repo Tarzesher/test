@@ -20,6 +20,7 @@ namespace SBSA.Recon.Tool.Application.Mapper
         {
             Config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<MetaAdaptivReconComment, CommentDto>();
+                cfg.CreateMap<AdaptivRecon, AdaptivReconDto>();
             });
         }
     }

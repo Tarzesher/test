@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-
-namespace SBSA.Recon.Tool.QueryService
+﻿namespace SBSA.Recon.Tool.QueryService
 {
     public interface IQuery<out TResponse> { }
 }
