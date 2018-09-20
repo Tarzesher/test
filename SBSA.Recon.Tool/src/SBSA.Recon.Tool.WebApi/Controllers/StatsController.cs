@@ -21,7 +21,7 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
             }
         }
         [HttpGet]
-        public async Task<IEnumerable<AdaptivReconDto>> ReadStats()
+        public async Task<IEnumerable<AdaptivReconDto>> Get()
         {
             using (var context = new AdaptivContext())
             {
@@ -30,6 +30,12 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
                 var stats = await service.GetStats(repo);
                 return Mapper.Map<IEnumerable<AdaptivRecon>, IEnumerable<AdaptivReconDto>>(stats);
             }
+        }
+
+        [HttpGet]
+        public string read()
+        {
+            return "Controller";
         }
     }
 }

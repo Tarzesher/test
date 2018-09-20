@@ -539,7 +539,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\src\styles\styles.scss */"./src/styles/styles.scss");
+module.exports = __webpack_require__(/*! C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\src\styles\styles.scss */"./src/styles/styles.scss");
 
 
 /***/ })

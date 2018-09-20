@@ -7,6 +7,5 @@ C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.T
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\bin\Debug\SBSA.Recon.Tool.Database.dacpac
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\bin\Debug\SBSA.Recon.Tool.Database.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\bin\Debug\SBSA.Recon.Tool.Database.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.Tool.Database.sqlprojAssemblyReference.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.Tool.Database.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.Tool.Database.pdb

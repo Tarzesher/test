@@ -5,6 +5,7 @@ using SBSA.OffShore.Domain.CommandHandlers;
 using SBSA.OffShore.Domain.QueryHandlers;
 using SBSA.Recon.Tool.Domain.Messaging;
 using SBSA.Recon.Tool.Infrastructure.Entities;
+using SBSA.Recon.Tool.Infrastructure.Service.Persistence;
 using SBSA.Recon.Tool.QueryService;
 using System.Collections.Generic;
 using System.Threading.Tasks;
@@ -24,10 +25,10 @@ namespace SBSA.OffShore.Domain.Configuration
             builder.RegisterType<EventBus>().As<IEventBus>().InstancePerLifetimeScope();
             builder.RegisterType<CommandBus>().As<ICommandBus>().InstancePerDependency();
             builder.RegisterType<CreateCommentCommandHandler>().As<ICommandHandler<CreateCommentCommand>>();
-            builder.RegisterType<ReadQueryStatsHandler>().As<IQueryHandler<ReconStatsQuery, Task<IEnumerable<AdaptivRecon>>>>(); 
+            builder.RegisterType<CommandServiceRepository<MetaAdaptivReconComment>>().As<ICommandServiceRepository<MetaAdaptivReconComment>>();
 
-           // build container 
-           var container = builder.Build();
+            // build container 
+            var container = builder.Build();
 
             return container;
 

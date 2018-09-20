@@ -17,7 +17,7 @@ namespace SBSA.OffShore.Domain.Configuration
         {
             Config = new MapperConfiguration(cfg => {
                 cfg.CreateMap<CommentItem, MetaAdaptivReconComment>();
-                
+
             });
         }
     }

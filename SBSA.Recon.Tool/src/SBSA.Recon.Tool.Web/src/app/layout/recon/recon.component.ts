@@ -23,7 +23,8 @@ export class ReconComponent implements OnInit {
         , 'notional'
         , 'mtm'
         , 'logEvent'
-        , 'comment'];
+        , 'comment'
+        , 'action'];
 
     dataSource: MatTableDataSource<OverviewStats>;
 

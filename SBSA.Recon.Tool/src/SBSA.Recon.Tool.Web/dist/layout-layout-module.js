@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"sidebar\">\n    <mat-nav-list>\n        <a mat-list-item [routerLinkActive]=\"'active'\" [routerLink]=\"['/dashboard']\">\n            <mat-icon class=\"sidenav-icon\">dashboard</mat-icon> {{ 'Dashboard' | translate }}\n        </a>\n        <a mat-list-item [routerLinkActive]=\"'active'\" [routerLink]=\"['/recon']\">\n            <mat-icon class=\"sidenav-icon\">table_chart</mat-icon> {{ 'Recon' | translate }}\n        </a>\n    </mat-nav-list>\n</div>\n"
+module.exports = "<div id=\"sidebar\">\n    <mat-nav-list>\n        <a mat-list-item [routerLinkActive]=\"'active'\" [routerLink]=\"['/dashboard']\">\n            <mat-icon class=\"sidenav-icon\">dashboard</mat-icon> {{ 'Dashboard' | translate }}\n        </a>\n        <a mat-list-item [routerLinkActive]=\"'active'\" [routerLink]=\"['/recon']\">\n            <mat-icon class=\"sidenav-icon\">table_chart</mat-icon> {{ 'Overview Stats' | translate }}\n        </a>\n    </mat-nav-list>\n</div>\n"
 
 /***/ }),
 
@@ -193,14 +193,6 @@ var routes = [
                 path: '',
                 redirectTo: 'dashboard'
             },
-            // {
-            //     path: 'blah',
-            //     redirectTo: 'tedesca'
-            // },
-            // {
-            //     path: 'tedesca',
-            //     loadChildren: './blah/blah.module#BlahModule'
-            // },
             {
                 path: 'recon',
                 loadChildren: './recon/recon.module#ReconModule'

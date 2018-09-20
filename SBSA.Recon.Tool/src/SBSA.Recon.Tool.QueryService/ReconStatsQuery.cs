@@ -9,4 +9,9 @@ namespace SBSA.Recon.Tool.QueryService
     {
 
     }
+
+    public class CommentQuery : IQuery<Task<IEnumerable<MetaAdaptivReconComment>>>
+    {
+
+    }
 }

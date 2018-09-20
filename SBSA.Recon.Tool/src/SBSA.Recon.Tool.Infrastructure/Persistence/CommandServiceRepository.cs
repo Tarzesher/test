@@ -7,7 +7,7 @@ using SBSA.Recon.Tool.Infrastructure.Context;
 namespace SBSA.Recon.Tool.Infrastructure.Service.Persistence
 {
     public class CommandServiceRepository<TEntity> : ICommandServiceRepository<TEntity>
-        where TEntity : class,IReadReconEntity, IReadCommentEntity
+        where TEntity : class, IReadCommentEntity
     {
         protected Microsoft.EntityFrameworkCore.DbContext _context;
         public CommandServiceRepository()

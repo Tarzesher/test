@@ -13,7 +13,7 @@ namespace SBSA.Recon.Tool.WebApiTest
             var ctrl = new StatsController();
 
             //Assign
-            var expected = await ctrl.ReadStats();
+            var expected = await ctrl.Get();
 
             var count = expected.ToList();
             //Assert

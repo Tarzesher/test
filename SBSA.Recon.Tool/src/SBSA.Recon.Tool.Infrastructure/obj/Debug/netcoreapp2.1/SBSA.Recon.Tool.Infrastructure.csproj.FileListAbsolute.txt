@@ -18,9 +18,9 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\bin\Debug\netcoreapp2
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.runtimeconfig.dev.json
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.csprojAssemblyReference.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.csproj.CoreCompileInputs.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.AssemblyInfoInputs.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.AssemblyInfo.cs
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Infrastructure\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Infrastructure.csprojAssemblyReference.cache

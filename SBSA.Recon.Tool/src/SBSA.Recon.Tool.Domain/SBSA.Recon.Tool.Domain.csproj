@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SBSA.Recon.Tool.CommansService\SBSA.Recon.Tool.CommansService.csproj" />
+    <ProjectReference Include="..\SBSA.Recon.Tool.CommandService\SBSA.Recon.Tool.CommandService.csproj" />
     <ProjectReference Include="..\SBSA.Recon.Tool.EventStore\SBSA.Recon.Tool.EventStore.csproj" />
     <ProjectReference Include="..\SBSA.Recon.Tool.Infrastructure\SBSA.Recon.Tool.Infrastructure.csproj" />
     <ProjectReference Include="..\SBSA.Recon.Tool.QueryService\SBSA.Recon.Tool.QueryService.csproj" />

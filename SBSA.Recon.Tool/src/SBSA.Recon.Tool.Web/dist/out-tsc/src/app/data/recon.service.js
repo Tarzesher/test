@@ -17,15 +17,15 @@ var ReconService = /** @class */ (function () {
         this.http = http;
         this.headers = new http_1.Headers();
         // tslint:disable-next-line:no-inferrable-types
-        this.url = 'http://localhost:1591/';
+        this.url = 'https://localhost:44305/';
     }
     ReconService.prototype.saveComment = function (comment) {
         var options = new http_1.RequestOptions({ withCredentials: true });
-        return this.http.post(this.url + 'api/Recon/CreateComment', comment, options).pipe(operators_1.map(function (r) { return r.json(); }));
+        return this.http.post(this.url + 'api/Comment/CreateComment', comment, options).pipe(operators_1.map(function (r) { return r.json(); }));
     };
     ReconService.prototype.saveComments = function (comment) {
         var options = new http_1.RequestOptions({ withCredentials: true });
-        return this.http.post(this.url + 'api/Recon/CreateComments', comment, options).pipe(operators_1.map(function (r) { return r.json(); }));
+        return this.http.post(this.url + 'api/Comment/CreateComments', comment, options).pipe(operators_1.map(function (r) { return r.json(); }));
     };
     ReconService = __decorate([
         core_1.Injectable({

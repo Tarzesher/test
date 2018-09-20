@@ -1,8 +1,6 @@
 ﻿using ABSA.OffShore.QueryService.Persistence;
 using AutoMapper;
 using SBSA.OffShore.Domain.Configuration;
-using SBSA.Recon.Tool.Application.DataTransferObject;
-using SBSA.Recon.Tool.Domain.Messaging;
 using SBSA.Recon.Tool.Domain.QueryHandler;
 using SBSA.Recon.Tool.Infrastructure.Entities;
 using SBSA.Recon.Tool.QueryService;
@@ -27,5 +25,7 @@ namespace SBSA.Recon.Tool.Application.Services
             var handler = new AdaptivReconHandlerFactory(repository).Build(query);
             return await handler.Get();
         }
+
+
     }
 }

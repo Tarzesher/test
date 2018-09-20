@@ -27,7 +27,8 @@ var ReconComponent = /** @class */ (function () {
             'notional',
             'mtm',
             'logEvent',
-            'comment'
+            'comment',
+            'action'
         ];
         // Create 100 overview
         var stats = [];

@@ -9517,7 +9517,7 @@ __webpack_require__.r(__webpack_exports__);
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\ReconTool\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\src\polyfills.ts */"./src/polyfills.ts");
+module.exports = __webpack_require__(/*! C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\src\polyfills.ts */"./src/polyfills.ts");
 
 
 /***/ })
