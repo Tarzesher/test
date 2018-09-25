@@ -7,6 +7,7 @@ namespace SBSA.OffShore.Domain.QueryHandlers
         where TQuery : IQuery<TResponse>
     {
         TResponse Get();
+        TResponse GetById(int id);
     }
 
 

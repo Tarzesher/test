@@ -29,5 +29,10 @@ namespace SBSA.OffShore.Domain.QueryHandlers
             return await _repository.FindAsync();
         }
 
+        public async Task<IEnumerable<AdaptivRecon>> GetById(int id)
+        {
+           return await _repository.FindAllAsync(x=> x.AdaptivReconId == id);
+        }
+
     }
 }

@@ -15,7 +15,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\SBSA.Recon.Tool.WebApi\SBSA.Recon.Tool.WebApi.csproj" />
+    <ProjectReference Include="..\..\SBSA.Recon.Tool.Api\SBSA.Recon.Tool.Api.csproj" />
   </ItemGroup>
 
 </Project>

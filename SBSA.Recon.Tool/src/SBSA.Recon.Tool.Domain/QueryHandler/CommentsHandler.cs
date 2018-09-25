@@ -28,5 +28,9 @@ namespace SBSA.OffShore.Domain.QueryHandlers
             return await _repository.FindAsync();
         }
 
+        public async Task<IEnumerable<MetaAdaptivReconComment>> GetById(int id)
+        {
+            return await _repository.FindAllAsync(x => x.CommentKey == id);
+        }
     }
 }

@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
 using ABSA.OffShore.QueryService.Persistence;
 using AutoMapper;
@@ -29,6 +30,18 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
                 var service = new AdaptivReconService();
                 var stats = await service.GetStats(repo);
                 return Mapper.Map<IEnumerable<AdaptivRecon>, IEnumerable<AdaptivReconDto>>(stats);
+            }
+        }
+
+        [HttpGet]
+        public async Task<AdaptivReconDto> GetOne()
+        {
+            using (var context = new AdaptivContext())
+            {
+                var repo = new QueryServiceRepository<AdaptivRecon>(context);
+                var service = new AdaptivReconService();
+                var stats = (await service.GetStats(repo)).ToList().FirstOrDefault();
+                return Mapper.Map<AdaptivRecon, AdaptivReconDto>(stats);
             }
         }
 

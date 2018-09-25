@@ -26,6 +26,13 @@ namespace SBSA.Recon.Tool.Application.Services
             return await handler.Get();
         }
 
+        //public async Task<IEnumerable<AdaptivRecon>> GetStats(IQueryServiceRepository<AdaptivRecon> repository, int id)
+        //{
+        //    var query = new ReconStatsQuery();
+        //    var handler = new AdaptivReconHandlerFactory(repository).Build(query);
+        //    return await handler.GetById(id);
+        //}
+
 
     }
 }

@@ -1,5 +1,8 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
+import { ReconService } from '../../data/recon.service';
+import { OverviewModel } from '../model/overviewModel';
+import { CommentModel } from '../model/CommentModel';
 
 
 @Component({
@@ -9,7 +12,11 @@ import { MatPaginator, MatSort, MatTableDataSource } from '@angular/material';
 })
 export class ReconComponent implements OnInit {
 
-  displayedColumns = [
+    overviewModel: OverviewModel[] = [];
+    comments: CommentModel[] = [];
+    loading: boolean;
+
+    displayedColumns = [
           'reconID'
         , 'source'
         , 'cdsBusinessDate'
@@ -23,26 +30,28 @@ export class ReconComponent implements OnInit {
         , 'notional'
         , 'mtm'
         , 'logEvent'
-        , 'comment'
-        , 'action'];
+        ];
 
-    dataSource: MatTableDataSource<OverviewStats>;
+    dataSource: MatTableDataSource<OverviewModel>;
+    commentDataSource: MatTableDataSource<CommentModel>;
 
     @ViewChild(MatPaginator) paginator: MatPaginator;
     @ViewChild(MatSort) sort: MatSort;
 
-    constructor() {
-        // Create 100 overview
-        const stats: OverviewStats[] = [];
-        for (let i = 1; i <= 100; i++) {
-            stats.push(createOverview(i));
-        }
-
-        // Assign the data to the data source for the table to render
-        this.dataSource = new MatTableDataSource(stats);
+    constructor( private reconService: ReconService) {
+        this.reconService = reconService;
     }
 
     ngOnInit() {
+
+        // this.reconService.getComments()
+        // .subscribe(x => this.commentDataSource = new MatTableDataSource(x));
+        // this.commentDataSource = new MatTableDataSource(this.comments);
+        // this.commentDataSource.paginator = this.paginator;
+        // this.commentDataSource.sort = this.sort;
+
+        this.reconService.getStats()
+        .subscribe(x => this.dataSource = new MatTableDataSource(x));
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
     }
@@ -57,42 +66,5 @@ export class ReconComponent implements OnInit {
     }
 }
 
-export interface OverviewStats {
-    reconID: number;
-    source: string;
-    cdsBusinessDate: Date;
-    reference: string;
-    srcReference: string;
-    tradeDate: Date;
-    expiryDate: Date;
-    settlementDate: Date;
-    cif: number;
-    product: string;
-    notional: number;
-    mtm: string;
-    logEvent: string;
-    comment: string;
-}
-
-function createOverview(id: number): OverviewStats {
-
-    const stats: OverviewStats = {
-        reconID: id,
-        source: 'BNKT',
-        cdsBusinessDate: new Date('2018-05-14'),
-        reference: 'BNKT_M619252000',
-        srcReference: 'M619252000',
-        tradeDate:  new Date('Feb 15 2018 12:00AM'),
-        expiryDate:  new Date('Feb 15 2018 12:00AM'),
-        settlementDate: new Date('Feb 15 2018 12:00AM'),
-        cif: 0,
-        product: 'N/A',
-        notional: 56000000,
-        mtm: null,
-        logEvent: 'LogFilter',
-        comment: 'LogFilter: BNKT_M560348000 filtered. Invalid Trade Indicator from Source'
-    };
-    return stats;
-}
 
 
