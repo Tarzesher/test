@@ -14,34 +14,28 @@ export class ReconService {
   // tslint:disable-next-line:no-inferrable-types
   url: string = 'http://localhost:63547/api/';
 
-  constructor(private readonly http: HttpClient) { }
+    constructor(private readonly http: HttpClient) { }
 
-  // saveComment(comment: FormData): Observable<number> {
-  //   // const options = new RequestOptions({withCredentials: true });
-  //   return this.http.post(this.url + 'api/Comment/CreateComment', comment, options).pipe(map(r => r.json()));
-  // }
+    createComment(formData: any) {
+      return this.http.get(this.url + 'comment/create' + formData, this.httpOptions)
+      .pipe(map(r => <OverviewModel[]>r));
+    }
 
-  // saveComments(comment: FormData): Observable<number> {
-  //   const options = new RequestOptions({withCredentials: true });
-  //   return this.http.post(this.url + 'api/Comment/CreateComments', comment, options).pipe(map(r => r.json()));
-  // }
+    getStats(): any {
 
-  getStats(): any {
+      return this.http.get(this.url + 'stats/', this.httpOptions)
+      .pipe(map(r => <OverviewModel[]>r));
+    }
 
-    return this.http.get(this.url + 'stats/', this.httpOptions)
-    .pipe(map(r => <OverviewModel[]>r));
-  }
+    getComments(): any {
+      return this.http.get(this.url + 'comment/', this.httpOptions)
+      .pipe(map(r => <CommentModel[]>r));
+    }
 
-  getComments(): any {
-    return this.http.get(this.url + 'comment/', this.httpOptions)
-    .pipe(map(r => <CommentModel[]>r));
-  }
-
-
-
-    // getStats(): Observable<OverviewModel[]> {
-    // const options = new RequestOptions({withCredentials: true });
-    // return this.http.get(this.url + 'stats/', options).pipe(map(r => <OverviewModel[]>r.json()));
+    getCommentById(reconId: number): any {
+      return this.http.get(this.url + 'comment/GetById' + reconId, this.httpOptions)
+      .pipe(map(r => <CommentModel[]>r));
+    }
   }
 
 

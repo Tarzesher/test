@@ -51,7 +51,7 @@ var ReconRoutingModule = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<mat-form-field>\n  <input matInput (keyup)=\"applyFilter($event.target.value)\" placeholder=\"Filter\">\n</mat-form-field>\n\n<div class=\"mat-elevation-z8\">\n  <table mat-table [dataSource]=\"dataSource\" matSort>\n\n<ng-container matColumnDef=\"reconID\">\n    <th mat-header-cell *matHeaderCellDef mat-sort-header> Recon Id </th>\n    <td mat-cell *matCellDef=\"let row\"> {{row.reconID}} </td>\n</ng-container>\n<ng-container matColumnDef=\"source\">\n    <th mat-header-cell *matHeaderCellDef mat-sort-header> Source </th>\n    <td mat-cell *matCellDef=\"let row\"> {{row.source}} </td>\n</ng-container>\n<ng-container matColumnDef=\"cdsBusinessDate\">\n    <th mat-header-cell *matHeaderCellDef mat-sort-header> CDS Business Date </th>\n    <td mat-cell *matCellDef=\"let row\"> {{row.cdsBusinessDate}} </td>\n</ng-container>\n<ng-container matColumnDef=\"reference\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> Reference </th>\n        <td mat-cell *matCellDef=\"let row\"> {{row.reference}} </td>\n</ng-container>\n<ng-container matColumnDef=\"srcReference\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> Src Reference </th>\n        <td mat-cell *matCellDef=\"let row\"> {{row.srcReference}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"tradeDate\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> Trade Date </th>\n        <td mat-cell *matCellDef=\"let row\"> {{row.tradeDate}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"expiryDate\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Expiry Date </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.expiryDate}} </td>\n        </ng-container>\n    <ng-container matColumnDef=\"settlementDate\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Trade Date </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.settlementDate}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"cif\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> CIF\n        <td mat-cell *matCellDef=\"let row\"> {{row.cif}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"product\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Product </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.product}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"notional\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> notional </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.notional}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"mtm\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header>mtm </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.mtm}} </td>\n        </ng-container>\n    \n        <ng-container matColumnDef=\"logEvent\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Log Event </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.logEvent}} </td>\n        </ng-container>\n        <ng-container matColumnDef=\"comment\">\n                <th mat-header-cell *matHeaderCellDef mat-sort-header> Comment</th>\n                <td mat-cell *matCellDef=\"let row\"> {{row.comment}} </td>\n        </ng-container>\n\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n  </table>\n\n  <mat-paginator [pageSize]=\"10\" [pageSizeOptions]=\"[5, 10, 25, 100]\"></mat-paginator>\n</div>\n"
+module.exports = "<mat-form-field>\n  <input matInput (keyup)=\"applyFilter($event.target.value)\" placeholder=\"Filter\">\n</mat-form-field>\n\n<div class=\"mat-elevation-z8\">\n  <table mat-table [dataSource]=\"dataSource\" matSort>\n<ng-container matColumnDef=\"reconID\">\n    <th mat-header-cell *matHeaderCellDef mat-sort-header> Recon Id </th>\n    <td mat-cell *matCellDef=\"let row\"> {{row.reconID}} </td>\n</ng-container>\n<ng-container matColumnDef=\"source\">\n    <th mat-header-cell *matHeaderCellDef mat-sort-header> Source </th>\n    <td mat-cell *matCellDef=\"let row\"> {{row.source}} </td>\n</ng-container>\n<ng-container matColumnDef=\"cdsBusinessDate\">\n    <th mat-header-cell *matHeaderCellDef mat-sort-header> CDS Business Date </th>\n    <td mat-cell *matCellDef=\"let row\"> {{row.cdsBusinessDate}} </td>\n</ng-container>\n<ng-container matColumnDef=\"reference\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> Reference </th>\n        <td mat-cell *matCellDef=\"let row\"> {{row.reference}} </td>\n</ng-container>\n<ng-container matColumnDef=\"srcReference\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> Src Reference </th>\n        <td mat-cell *matCellDef=\"let row\"> {{row.srcReference}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"tradeDate\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> Trade Date </th>\n        <td mat-cell *matCellDef=\"let row\"> {{row.tradeDate}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"expiryDate\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Expiry Date </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.expiryDate}} </td>\n        </ng-container>\n    <ng-container matColumnDef=\"settlementDate\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Trade Date </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.settlementDate}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"cif\">\n        <th mat-header-cell *matHeaderCellDef mat-sort-header> CIF\n        <td mat-cell *matCellDef=\"let row\"> {{row.cif}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"product\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Product </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.product}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"notional\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> notional </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.notional}} </td>\n    </ng-container>\n    <ng-container matColumnDef=\"mtm\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header>mtm </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.mtm}} </td>\n        </ng-container>\n    \n        <ng-container matColumnDef=\"logEvent\">\n            <th mat-header-cell *matHeaderCellDef mat-sort-header> Log Event </th>\n            <td mat-cell *matCellDef=\"let row\"> {{row.logEvent}} </td>\n        </ng-container>\n        <!-- <ng-container matColumnDef=\"comment\">\n                <th mat-header-cell *matHeaderCellDef mat-sort-header> Comment</th>\n                <td mat-cell *matCellDef=\"let row\"> {{row.commentCount}} </td>\n        </ng-container> -->\n\n    <tr mat-header-row *matHeaderRowDef=\"displayedColumns\"></tr>\n    <tr mat-row *matRowDef=\"let row; columns: displayedColumns;\"></tr>\n  </table>\n\n  <mat-paginator [pageSize]=\"10\" [pageSizeOptions]=\"[5, 10, 25, 100]\"></mat-paginator>\n</div>\n"
 
 /***/ }),
 
@@ -78,6 +78,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ReconComponent", function() { return ReconComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_material__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/material */ "./node_modules/@angular/material/esm5/material.es5.js");
+/* harmony import */ var _data_recon_service__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../data/recon.service */ "./src/app/data/recon.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -89,8 +90,12 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 };
 
 
+
 var ReconComponent = /** @class */ (function () {
-    function ReconComponent() {
+    function ReconComponent(reconService) {
+        this.reconService = reconService;
+        this.overviewModel = [];
+        this.comments = [];
         this.displayedColumns = [
             'reconID',
             'source',
@@ -104,18 +109,19 @@ var ReconComponent = /** @class */ (function () {
             'product',
             'notional',
             'mtm',
-            'logEvent',
-            'comment'
+            'logEvent'
         ];
-        // Create 100 overview
-        var stats = [];
-        for (var i = 1; i <= 100; i++) {
-            stats.push(createOverview(i));
-        }
-        // Assign the data to the data source for the table to render
-        this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"](stats);
+        this.reconService = reconService;
     }
     ReconComponent.prototype.ngOnInit = function () {
+        // this.reconService.getComments()
+        // .subscribe(x => this.commentDataSource = new MatTableDataSource(x));
+        // this.commentDataSource = new MatTableDataSource(this.comments);
+        // this.commentDataSource.paginator = this.paginator;
+        // this.commentDataSource.sort = this.sort;
+        var _this = this;
+        this.reconService.getStats()
+            .subscribe(function (x) { return _this.dataSource = new _angular_material__WEBPACK_IMPORTED_MODULE_1__["MatTableDataSource"](x); });
         this.dataSource.paginator = this.paginator;
         this.dataSource.sort = this.sort;
     };
@@ -141,30 +147,11 @@ var ReconComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./recon.component.html */ "./src/app/layout/recon/recon.component.html"),
             styles: [__webpack_require__(/*! ./recon.component.scss */ "./src/app/layout/recon/recon.component.scss")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_data_recon_service__WEBPACK_IMPORTED_MODULE_2__["ReconService"]])
     ], ReconComponent);
     return ReconComponent;
 }());
 
-function createOverview(id) {
-    var stats = {
-        reconID: id,
-        source: 'BNKT',
-        cdsBusinessDate: new Date('2018-05-14'),
-        reference: 'BNKT_M619252000',
-        srcReference: 'M619252000',
-        tradeDate: new Date('Feb 15 2018 12:00AM'),
-        expiryDate: new Date('Feb 15 2018 12:00AM'),
-        settlementDate: new Date('Feb 15 2018 12:00AM'),
-        cif: 0,
-        product: 'N/A',
-        notional: 56000000,
-        mtm: null,
-        logEvent: 'LogFilter',
-        comment: 'LogFilter: BNKT_M560348000 filtered. Invalid Trade Indicator from Source'
-    };
-    return stats;
-}
 
 
 /***/ }),
