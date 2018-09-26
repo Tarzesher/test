@@ -9,3 +9,8 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\bin\Debug\SBSA.Recon.Tool.D
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\bin\Debug\SBSA.Recon.Tool.Database.pdb
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.Tool.Database.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.Tool.Database.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\SBSA.Recon.Tool.Database.sqlprojAssemblyReference.cache
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\Model.xml
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\refactor.xml
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\postdeploy.sql
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Database\obj\Debug\predeploy.sql

@@ -31,7 +31,6 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\bin\Debug\netcoreapp2.1\SBSA.Rec
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.runtimeconfig.dev.json
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\bin\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.pdb
-C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.csprojAssemblyReference.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.csproj.CoreCompileInputs.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.RazorAssemblyInfo.cache
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.Web\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.Web.RazorAssemblyInfo.cs

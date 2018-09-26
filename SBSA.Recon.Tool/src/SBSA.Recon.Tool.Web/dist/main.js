@@ -279,20 +279,8 @@ var ReconService = /** @class */ (function () {
         // tslint:disable-next-line:no-inferrable-types
         this.url = 'http://localhost:63547/api/';
     }
-    // saveComment(comment: FormData): Observable<number> {
-    //   // const options = new RequestOptions({withCredentials: true });
-    //   return this.http.post(this.url + 'api/Comment/CreateComment', comment, options).pipe(map(r => r.json()));
-    // }
-    // saveComments(comment: FormData): Observable<number> {
-    //   const options = new RequestOptions({withCredentials: true });
-    //   return this.http.post(this.url + 'api/Comment/CreateComments', comment, options).pipe(map(r => r.json()));
-    // }
-    ReconService.prototype.createComment = function (reconId, isMultiple) {
-        return this.http.get(this.url + 'comment/create', this.httpOptions)
-            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(function (r) { return r; }));
-    };
-    ReconService.prototype.createComments = function (isMultiple) {
-        return this.http.get(this.url + 'comment/create', this.httpOptions)
+    ReconService.prototype.createComment = function (formData) {
+        return this.http.get(this.url + 'comment/create' + formData, this.httpOptions)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(function (r) { return r; }));
     };
     ReconService.prototype.getStats = function () {
@@ -301,6 +289,10 @@ var ReconService = /** @class */ (function () {
     };
     ReconService.prototype.getComments = function () {
         return this.http.get(this.url + 'comment/', this.httpOptions)
+            .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(function (r) { return r; }));
+    };
+    ReconService.prototype.getCommentById = function (reconId) {
+        return this.http.get(this.url + 'comment/GetById' + reconId, this.httpOptions)
             .pipe(Object(rxjs_operators__WEBPACK_IMPORTED_MODULE_0__["map"])(function (r) { return r; }));
     };
     ReconService = __decorate([

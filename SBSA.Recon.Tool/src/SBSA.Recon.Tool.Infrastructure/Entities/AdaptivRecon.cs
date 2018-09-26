@@ -8,7 +8,7 @@ namespace SBSA.Recon.Tool.Infrastructure.Entities
     {
         public int AdaptivReconId { get; set; }
         public string Source { get; set; }
-        public string CdsbusinessDate { get; set; }
+        public DateTime CdsbusinessDate { get; set; }
         public string CdsbusinessDateSkey { get; set; }
         public string Reference { get; set; }
         public string SourceReference { get; set; }

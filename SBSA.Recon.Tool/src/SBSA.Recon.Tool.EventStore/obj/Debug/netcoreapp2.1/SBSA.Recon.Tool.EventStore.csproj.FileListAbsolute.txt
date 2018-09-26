@@ -15,3 +15,4 @@ C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.EventStore\obj\Debug\netcoreapp2.1\S
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.EventStore\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.AssemblyInfo.cs
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.EventStore\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.dll
 C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.EventStore\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.pdb
+C:\SBSA\SBSA.Recon.Tool\src\SBSA.Recon.Tool.EventStore\obj\Debug\netcoreapp2.1\SBSA.Recon.Tool.EventStore.csprojAssemblyReference.cache

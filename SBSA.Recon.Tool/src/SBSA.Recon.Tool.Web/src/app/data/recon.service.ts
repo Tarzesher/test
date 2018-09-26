@@ -22,7 +22,6 @@ export class ReconService {
     }
 
     getStats(): any {
-
       return this.http.get(this.url + 'stats/', this.httpOptions)
       .pipe(map(r => <OverviewModel[]>r));
     }

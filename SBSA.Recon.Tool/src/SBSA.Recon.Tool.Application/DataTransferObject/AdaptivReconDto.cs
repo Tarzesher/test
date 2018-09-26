@@ -1,7 +1,10 @@
-﻿namespace SBSA.Recon.Tool.Application.DataTransferObject
+﻿using Newtonsoft.Json;
+
+namespace SBSA.Recon.Tool.Application.DataTransferObject
 {
     public class AdaptivReconDto
     {
+        [JsonProperty(PropertyName ="reconID")]
         public int AdaptivReconId { get; set; }
         public string Source { get; set; }
         public string CdsbusinessDate { get; set; }

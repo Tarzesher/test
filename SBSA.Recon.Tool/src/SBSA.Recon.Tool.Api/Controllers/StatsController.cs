@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using ABSA.OffShore.QueryService.Persistence;
@@ -48,9 +49,16 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
         }
 
         [HttpGet]
-        public string read()
+        public async Task<IEnumerable<AdaptivReconDto>> GetBySource(string source, DateTime date)
         {
-            return "Controller";
+            using (var context = new AdaptivContext())
+            {
+                var repo = new QueryServiceRepository<AdaptivRecon>(context);
+                var service = new AdaptivReconService();
+                var stats = (await service.GetStats(repo))
+                    .Where(x => x.Source == source & x.CdsbusinessDate == date);
+                return Mapper.Map<IEnumerable<AdaptivRecon>, IEnumerable<AdaptivReconDto>>(stats);
+            }
         }
     }
 }
