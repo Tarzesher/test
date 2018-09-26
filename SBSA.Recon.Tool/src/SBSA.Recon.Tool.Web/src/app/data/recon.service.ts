@@ -35,6 +35,11 @@ export class ReconService {
       return this.http.get(this.url + 'comment/GetById' + reconId, this.httpOptions)
       .pipe(map(r => <CommentModel[]>r));
     }
+
+    getStatsBySource(source: string, date: Date): any {
+      return this.http.get(this.url + 'stats/GetBySource' + source + date, this.httpOptions)
+      .pipe(map(r => <CommentModel[]>r));
+    }
   }
 
 

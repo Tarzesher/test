@@ -26,7 +26,9 @@
     [Item_LogDelivered_Not_In_Target] VARCHAR (800)  NULL,
     [MarkToMarketCurrency]            VARCHAR (800)  NULL,
     [Currency]                        VARCHAR (800)  NULL,
-    [MaturityDate]                    VARCHAR (50)   NULL
+    [MaturityDate]                    VARCHAR (50)   NULL, 
+    [ReconStatusId]					  INT NULL, 
+    CONSTRAINT [FK_AdaptivRecon_ReconStatus] FOREIGN KEY ([ReconStatusId]) REFERENCES [lookup].[ReconStatus](Id)
 );
 
 
