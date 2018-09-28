@@ -1,37 +1,28 @@
-<!-- <div class="mb-20" fxLayout="row" fxLayout.lt-md="column" fxFlex fxLayoutGap="20px">
-    <div fxFlex>
-        <app-stat [bgClass]="'danger'" [icon]="'dashboard'" [count]="556" [label]="'Items In Source (CDS)'"></app-stat>
-    </div>
-    <div fxFlex>
-        <app-stat [bgClass]="'warn'" [icon]="'view_list'" [count]="268" [label]="'Middleware Log Delivered'"></app-stat>
-    </div>
-    <div fxFlex>
-        <app-stat [bgClass]="'success'" [icon]="'dashboard'" [count]="233" [label]="'Item In Target'"></app-stat>
-    </div>
-    <div fxFlex>
-        <app-stat [bgClass]="'info'" [icon]="'view_list'" [count]="288" [label]="'Middleware CIF Error Exception'"></app-stat>
-    </div>
-</div> -->
-
-
 <div class="mb-20" fxFlex fxLayout="row" fxLayout.lt-md="column" fxLayoutGap="20px">
     <div [fxFlex]="15">
             <mat-form-field>
-                <mat-select placeholder="Source">
-                    <mat-option value="option">Option</mat-option>
+                <mat-select 
+                placeholder="Source Type"
+                id="sourceTypesId" 
+                [(ngModel)]="source">
+                    <mat-option *ngFor="let x of sourceTypes" [value]="x">
+                        {{x}}
+                        </mat-option>
                 </mat-select>
             </mat-form-field>
     </div>
     <div [fxFlex]="15">
         <mat-form-field>
-            <input matInput [matDatepicker]="picker" placeholder="Business Date">
+            <input matInput [matDatepicker]="picker" 
+                placeholder="Business Date">
             <mat-datepicker-toggle matSuffix [for]="picker"></mat-datepicker-toggle>
             <mat-datepicker #picker></mat-datepicker>
         </mat-form-field>
+
     </div>
     <div [fxFlex]="20">
         <mat-card-content>
-            <button mat-raised-button color="primary">Search</button>
+            <button mat-raised-button color="primary" (click)="save()">Search</button>
         </mat-card-content>
     </div>
 </div>

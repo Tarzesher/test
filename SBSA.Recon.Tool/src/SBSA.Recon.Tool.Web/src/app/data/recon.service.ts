@@ -37,9 +37,49 @@ export class ReconService {
     }
 
     getStatsBySource(source: string, date: Date): any {
-      return this.http.get(this.url + 'stats/GetBySource' + source + date, this.httpOptions)
+      return this.http.get(this.url + 'stats/GetBySource?source=' + source + '&date=' + date, this.httpOptions)
       .pipe(map(r => <CommentModel[]>r));
     }
+
+    getStatsSourceLookup(): any {
+      return this.http.get(this.url + 'stats/GetSourceLookup', this.httpOptions)
+      .pipe(map(r => r));
+    }
+
+    getItemsInSource(source: string, date: Date, reconStatus: string):  any {
+      return this.http.get(this.url + 'stats/GetItemsInSource?source=' + source + '&date='
+         + date + '&reconstatus=' + reconStatus, this.httpOptions)
+      .pipe(map(r => r));
+    }
+
+    getMiddlewareLogFilter(source: string, date: Date, reconStatus: string): any {
+      return this.http.get(this.url + 'stats/GetMiddlewareLogFilter?source=' + source
+      + '&date=' + date + '&reconstatus=' + reconStatus, this.httpOptions)
+      .pipe(map(r => r));
+    }
+
+
+
+    // getStatsSourceLookup(): Observable<string[]> {
+    //   return this.http.get(this.url + 'stats/GetSourceLookup', this.httpOptions)
+    //   .pipe(map(r => <string[]>r));
+    // }
+    // getStatsSourceLookup(): Observable<string[]> {
+    //   return this.http.get(this.url + 'stats/GetSourceLookup', this.httpOptions)
+    //   .pipe(map(r => <string[]>r));
+    // }
+    // getStatsSourceLookup(): Observable<string[]> {
+    //   return this.http.get(this.url + 'stats/GetSourceLookup', this.httpOptions)
+    //   .pipe(map(r => <string[]>r));
+    // }
+    // getStatsSourceLookup(): Observable<string[]> {
+    //   return this.http.get(this.url + 'stats/GetSourceLookup', this.httpOptions)
+    //   .pipe(map(r => <string[]>r));
+    // }
+    // getStatsSourceLookup(): Observable<string[]> {
+    //   return this.http.get(this.url + 'stats/GetSourceLookup', this.httpOptions)
+    //   .pipe(map(r => <string[]>r));
+    // }
   }
 
 

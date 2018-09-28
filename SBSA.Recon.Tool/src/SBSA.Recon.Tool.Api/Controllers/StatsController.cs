@@ -60,5 +60,48 @@ namespace SBSA.Recon.Tool.WebApi.Controllers
                 return Mapper.Map<IEnumerable<AdaptivRecon>, IEnumerable<AdaptivReconDto>>(stats);
             }
         }
+        [Route("api/[controller]/GetSourceLookup")]
+        [HttpGet]
+        public async Task<IEnumerable<string>> GetSourceLookup()
+        {
+            using (var context = new AdaptivContext())
+            {
+                var repo = new QueryServiceRepository<AdaptivRecon>(context);
+                var service = new AdaptivReconService();
+                var stats = (await service.GetStats(repo))
+                    .Select(x => x.Source).Distinct();
+                return stats;
+            }
+        }
+        [Route("api/[controller]/GetItemsInSource")]
+        [HttpGet]
+        public async Task<IEnumerable<AdaptivReconDto>> GetItemsInSource(string source, DateTime date, string reconStatus)
+        {
+            using (var context = new AdaptivContext())
+            {
+                var repo = new QueryServiceRepository<AdaptivRecon>(context);
+                var service = new AdaptivReconService();
+                var stats = (await service.GetStats(repo))
+                    .Where(x => x.Source == source 
+                    & x.CdsbusinessDate == date
+                    & x.ItemInSource == reconStatus);
+                return Mapper.Map<IEnumerable<AdaptivRecon>, IEnumerable<AdaptivReconDto>>(stats);
+            }
+        }
+        [Route("api/[controller]/GetMiddlewareLogFilter")]
+        [HttpGet]
+        public async Task<IEnumerable<AdaptivReconDto>> GetMiddlewareLogFilter(string source, DateTime date, string reconStatus)
+        {
+            using (var context = new AdaptivContext())
+            {
+                var repo = new QueryServiceRepository<AdaptivRecon>(context);
+                var service = new AdaptivReconService();
+                var stats = (await service.GetStats(repo))
+                    .Where(x => x.Source == source
+                    & x.CdsbusinessDate == date
+                    & x.MiddlewareLogFilter == reconStatus);
+                return Mapper.Map<IEnumerable<AdaptivRecon>, IEnumerable<AdaptivReconDto>>(stats);
+            }
+        }
     }
 }
